@@ -3,6 +3,7 @@ import HeroSection from './HeroSection'
 import FeatureSection from './FeatureSection'
 import DiscoverSection from './DiscoverSection'
 import CallToAction from './CallToAction'
+import FooterSection from './FooterSection'
 
 const landing = () => {
   return (
@@ -11,6 +12,7 @@ const landing = () => {
       <FeatureSection/>
       <DiscoverSection/>
       <CallToAction/>
+      <FooterSection/>
     </div>
   )
 }
